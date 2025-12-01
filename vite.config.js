@@ -1,8 +1,7 @@
-import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react'
+// TRONG FILE: vite.config.js
 
-// https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: "/portfolio/", // QUAN TRỌNG: Phải trùng tên với Repository bạn vừa tạo
-})
+  // Đã sửa: Phải khớp với tên Repository mới!
+  base: "/PDong.Bcons/", 
+});
